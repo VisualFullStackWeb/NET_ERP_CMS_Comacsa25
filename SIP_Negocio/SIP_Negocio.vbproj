@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6CA65C51-0EFF-4F90-8D64-C7DD8BE57B29}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SIP_Negocio</RootNamespace>
+    <AssemblyName>SIP_Negocio</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SIP_Negocio.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SIP_Negocio.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="metodos.vb" />
+    <Compile Include="ModBasico.vb" />
+    <Compile Include="NGActivo.vb" />
+    <Compile Include="NGAnexo.vb" />
+    <Compile Include="NGAprobacionFirmaMonto.vb" />
+    <Compile Include="NGArea.vb" />
+    <Compile Include="NGAreaEmpleado.vb" />
+    <Compile Include="NGAreaJefatura.vb" />
+    <Compile Include="NGAsigCelular.vb" />
+    <Compile Include="NGAtributo.vb" />
+    <Compile Include="NGBanco.vb" />
+    <Compile Include="NGBolsaFactTelefonica.vb" />
+    <Compile Include="NGCanteraCosteo.vb" />
+    <Compile Include="NGCargaPesoHum.vb" />
+    <Compile Include="NGCheckList.vb" />
+    <Compile Include="NGCiaEstablecimiento.vb" />
+    <Compile Include="NGConsultaRRHH.vb" />
+    <Compile Include="NGConsumoCentroCosto.vb" />
+    <Compile Include="NGContratista.vb" />
+    <Compile Include="NGCosteoManttoMecanico.vb" />
+    <Compile Include="NGCosteoProduccion.vb" />
+    <Compile Include="NGCtaCteContratista.vb" />
+    <Compile Include="NGEmpleado.vb" />
+    <Compile Include="NGEmpleoLabor.vb" />
+    <Compile Include="NGEntregas.vb" />
+    <Compile Include="NGEquipo.vb" />
+    <Compile Include="NGFacturaTelefonica.vb" />
+    <Compile Include="NGFamiliaEquipo.vb" />
+    <Compile Include="NGFCB.vb" />
+    <Compile Include="NGGlosa.vb" />
+    <Compile Include="NGGuia.vb" />
+    <Compile Include="NGInsumosFiscalizados.vb" />
+    <Compile Include="NGInsumosFProductos.vb" />
+    <Compile Include="NGLineaNegocio.vb" />
+    <Compile Include="NGLineaProduccion.vb" />
+    <Compile Include="NGMaestros2.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NGAlmacen.vb" />
+    <Compile Include="NGCliente.vb" />
+    <Compile Include="NGMaestro.vb" />
+    <Compile Include="NGMineral.vb" />
+    <Compile Include="NGOrden.vb" />
+    <Compile Include="NGOrdenTrabajoRecursoSinPrecio.vb" />
+    <Compile Include="NGOrdenTrabajo_Mantto.vb" />
+    <Compile Include="NGParteEquipo.vb" />
+    <Compile Include="NGPartida.vb" />
+    <Compile Include="NGPartidaMaterial.vb" />
+    <Compile Include="NGPeriodoCosteo.vb" />
+    <Compile Include="NGPeriodoGasNatural.vb" />
+    <Compile Include="NGPeriodoPlantaCemento.vb" />
+    <Compile Include="NGPersonal_LinProd.vb" />
+    <Compile Include="NGPresupuesto.vb" />
+    <Compile Include="NGPresupuestoDet.vb" />
+    <Compile Include="NGProducto.vb" />
+    <Compile Include="NGProgramacionMantto.vb" />
+    <Compile Include="NGProveedor.vb" />
+    <Compile Include="NGProveedorFiscalizado.vb" />
+    <Compile Include="NGProyecto.vb" />
+    <Compile Include="NGReclamo.vb" />
+    <Compile Include="NGRegistroSOAT.vb" />
+    <Compile Include="NGReporte.vb" />
+    <Compile Include="NGRequerimiento.vb" />
+    <Compile Include="NGPersonal.vb" />
+    <Compile Include="NGCosto.vb" />
+    <Compile Include="NGRequerimiento_Mantto.vb" />
+    <Compile Include="NGRuma.vb" />
+    <Compile Include="NGSiliceHomogenizada.vb" />
+    <Compile Include="NGSistema.vb" />
+    <Compile Include="NGSuministro.vb" />
+    <Compile Include="NGTareoOS.vb" />
+    <Compile Include="NGTarjetaConsumo.vb" />
+    <Compile Include="NGUbigeos.vb" />
+    <Compile Include="NGUnidadMedida.vb" />
+    <Compile Include="NGUsuario.vb" />
+    <Compile Include="NGOrdenCompra.vb" />
+    <Compile Include="NGPedido.vb" />
+    <Compile Include="NGReportes.vb" />
+    <Compile Include="Produccion\Consulta\DatosIndicadores.vb" />
+    <Compile Include="RRHH\CargaLaboral\CentroCostoCargaLaboral.vb" />
+    <Compile Include="RRHH\Asistencia\ParteAsistencia.vb" />
+    <Compile Include="VentaExportacion.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SIP_Datos\SIP_Datos.vbproj">
+      <Project>{2CEE19A2-DAE3-4109-B2F8-584656AB6214}</Project>
+      <Name>SIP_Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SIP_Entidad\SIP_Entidad.vbproj">
+      <Project>{DA18E8CF-61D3-40FE-B453-BC26115D4BCB}</Project>
+      <Name>SIP_Entidad</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

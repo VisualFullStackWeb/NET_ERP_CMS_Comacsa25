@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <section name="dataConfiguration"
+             type="Microsoft.Practices.EnterpriseLibrary.Data.Configuration.DatabaseSettings, Microsoft.Practices.EnterpriseLibrary.Data, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+  </configSections>
+  <dataConfiguration defaultDatabase="cn" />
+  <connectionStrings>
+        <!--<add name="cn"
+             connectionString="Data Source=acws088;Initial Catalog=BDPRUEBAS;User ID=sa; PWD=123;Application Name = ERP - COMACSA"
+             providerName="System.Data.SqlClient" />-->
+        <!--<add name="cn"
+          connectionString="Data Source=Server03;Initial Catalog=BDFACRED;User ID=sa; PWD=1saposa5;Application Name = ERP Comacsa"
+          providerName="System.Data.SqlClient" />-->
+        <!--<add name="cn"
+             connectionString="Data Source=198.9.9.13\mssqlserverr2;Initial Catalog=BDFACRED;User ID=sa; PWD=123;Application Name = ERP Comacsa"
+             providerName="System.Data.SqlClient" />-->
+        <!--<add name="cn"
+             connectionString="Data Source=198.9.9.20;Initial Catalog=BD_FACTRED2;User ID=sa; PWD=123;Application Name = ERP Comacsa"
+             providerName="System.Data.SqlClient" />-->
+	    <!--<add name="cn"
+          connectionString="Data Source=198.9.9.13\MSSQLSERVERR2;Initial Catalog=BD_conta;User ID=sa; PWD=123;Application Name = ERP Comacsa"
+          providerName="System.Data.SqlClient"/>-->
+    <add name="cn"
+          connectionString="Data Source=198.9.9.181;Initial Catalog=BDFACRED;User ID=sa; PWD=1saposa5;Application Name = ERP Comacsa"
+          providerName="System.Data.SqlClient"/>
+        <!--<add name="cn"
+      connectionString="Data Source=198.9.9.13\mssqlserverr2;Initial Catalog=BDFACRED;User ID=sa; PWD=123;Application Name = ERP Comacsa"
+      providerName="System.Data.SqlClient" />-->
+
+  </connectionStrings>  
+  <system.diagnostics>
+    <sources>
+      <source name="DefaultSource" switchName="DefaultSwitch">
+        <listeners>
+          <add name="FileLog"/>
+        </listeners>
+      </source>
+    </sources>
+    <switches>
+      <add name="DefaultSwitch" value="Information" />
+    </switches>
+    <sharedListeners>
+      <add name="FileLog"
+           type="Microsoft.VisualBasic.Logging.FileLogTraceListener, Microsoft.VisualBasic, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
+           initializeData="FileLogWriter"/>
+    </sharedListeners>
+  </system.diagnostics>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="EnvDTE" publicKeyToken="B03F5F7F11D50A3A" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-8.0.0.0" newVersion="8.0.0.0"/>
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+  <appSettings>
+        <add key  = "Companhia"           value  = "01" />
+        <add key  = "Sistema"             value  = "22" />
+        <add key  = "UserBD"              value  = "SA" />
+        <add key  = "PassBD"              value  = "123" />
+        <add key  = "BD"                  value  = "bd_conta" />
+        <add key  = "DATASOURCE"          value  = "198.9.9.13\MSSQLSERVERR2" />
+        <add key  = "Terminal"            value  = "SA" />
+        <add key  = "RutaArchivo"         value  = "C:\MsArchivos\" />
+        <add key  = "Almacen"             value  = "02" />
+        <add key  = "TipoProducto"        value  = "04" />
+        <add key  = "Serie"               value  = "001" />
+        <add key  = "Requerimiento"       value  = "001" />
+        <add key  = "Dominio"             value  = "COMACSA\" />
+        <add key  = "Tema"                value  = "R01" />
+        <add key  = "Estilo"              value  = "R26" />
+        <add key  = "RutaReportes"        value  = "\\198.9.9.181\SISCOMACSA$\Reportes\ERP_Comacsa\" />
+  </appSettings>
+</configuration>

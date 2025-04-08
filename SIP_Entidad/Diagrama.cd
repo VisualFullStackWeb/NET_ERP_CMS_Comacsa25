@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical">
+  <Class Name="SIP_Entidad.My.MySettings" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SIP_Entidad.ETUsuario" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAFAKAADIYAAABCgAAIAQEAAAAEAKEEEAAAAA4=</HashCode>
+      <FileName>ETUsuario.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SIP_Entidad.ETObjecto" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASRUQBFTDBAMiIllAoAAIwiMgjEAElkGkJEG1AcEIIc=</HashCode>
+      <FileName>ETObjecto.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SIP_Entidad.ETRuma" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAUAARgQgAAAIkARAAAlAAAIgAEUAgACAAAFQkA=</HashCode>
+      <FileName>ETRuma.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SIP_Entidad.ETActivo" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KJ0xgYUAGTICuBOCIN/BGSAlEniEIOFeKIgBfQA0byA=</HashCode>
+      <FileName>ETActivo.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SIP_Entidad.ETCosto" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>ETCosto.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SIP_Entidad.ETMineral" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAEAAEAAAIAAAAAgAAEFAAEgAAAEAAAAAgQAAgg=</HashCode>
+      <FileName>ETMineral.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SIP_Entidad.ETPersonal" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAAAAACAAAAAAAAAAAAAIAAAAAAEAAAAAAABAAAAA=</HashCode>
+      <FileName>ETPersonal.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SIP_Entidad.ETProducto" Collapsed="true">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IYUgRAHcoAxOwV1B0AFAkBAJoBAWCIUEAEEDwSAE0wQ=</HashCode>
+      <FileName>ETProducto.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SIP_Entidad.ETRequerimiento" Collapsed="true">
+    <Position X="4.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAAACgAAAAAgEAAAhAAAAAAEAAAQAAAAAAAAAAEAAI=</HashCode>
+      <FileName>ETRequerimiento.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SIP_Entidad.ETSuministro" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JYUgQAUEAJxAAgYAIEAAgAAFABAACwCEABAAAIAQAgQ=</HashCode>
+      <FileName>ETSuministro.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SIP_Entidad.ETProforma" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAABAAgJAAAAAAAhCEQAAQAAAAAAAgAAA=</HashCode>
+      <FileName>ETProforma.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SIP_Entidad.ETOrden" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQEAAEGAEACgA0gAoAAAQCBAhgACEkGAAABAEEEA4Q=</HashCode>
+      <FileName>ETOrden.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SIP_Entidad.ETCliente" Collapsed="true">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BwEakIACAc4AQJtBAYAAAAgRghCNEAO0AgADRoAiAQQ=</HashCode>
+      <FileName>ETCliente.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SIP_Entidad.ETAlmacen" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAACAAEAAAAAAAAFAAAAIAAEAAAAQAAAAAA=</HashCode>
+      <FileName>ETAlmacen.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SIP_Entidad.ETMyLista" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAIgBQAAAFAAAAYQEARAAQAgBBEQIAAAABBMAAA=</HashCode>
+      <FileName>ETMyLista.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Module Name="SIP_Entidad.My.Resources.Resources" Collapsed="true">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="SIP_Entidad.My.MySettingsProperty" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

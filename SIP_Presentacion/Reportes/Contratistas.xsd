@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Contratistas" targetNamespace="http://tempuri.org/Contratistas.xsd" xmlns:mstns="http://tempuri.org/Contratistas.xsd" xmlns="http://tempuri.org/Contratistas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Contratistas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Contratistas" msprop:Generator_DataSetName="Contratistas" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RPT_ANTICIPO" msprop:Generator_UserTableName="RPT_ANTICIPO" msprop:Generator_RowDeletedName="RPT_ANTICIPORowDeleted" msprop:Generator_RowChangedName="RPT_ANTICIPORowChanged" msprop:Generator_RowClassName="RPT_ANTICIPORow" msprop:Generator_RowChangingName="RPT_ANTICIPORowChanging" msprop:Generator_RowEvArgName="RPT_ANTICIPORowChangeEvent" msprop:Generator_RowEvHandlerName="RPT_ANTICIPORowChangeEventHandler" msprop:Generator_TableClassName="RPT_ANTICIPODataTable" msprop:Generator_TableVarName="tableRPT_ANTICIPO" msprop:Generator_RowDeletingName="RPT_ANTICIPORowDeleting" msprop:Generator_TablePropName="RPT_ANTICIPO">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NUMSOLICITUD" msdata:Caption="codTrabajador" msprop:Generator_UserColumnName="NUMSOLICITUD" msprop:Generator_ColumnPropNameInRow="NUMSOLICITUD" msprop:Generator_ColumnVarNameInTable="columnNUMSOLICITUD" msprop:Generator_ColumnPropNameInTable="NUMSOLICITUDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AYO" msdata:Caption="nomTrabajador" msprop:Generator_UserColumnName="AYO" msprop:Generator_ColumnPropNameInRow="AYO" msprop:Generator_ColumnVarNameInTable="columnAYO" msprop:Generator_ColumnPropNameInTable="AYOColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PERIODO" msdata:Caption="codArea" msprop:Generator_UserColumnName="PERIODO" msprop:Generator_ColumnPropNameInRow="PERIODO" msprop:Generator_ColumnVarNameInTable="columnPERIODO" msprop:Generator_ColumnPropNameInTable="PERIODOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DESCRIPCION" msdata:Caption="Area" msprop:Generator_UserColumnName="DESCRIPCION" msprop:Generator_ColumnPropNameInRow="DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPCION" msprop:Generator_ColumnPropNameInTable="DESCRIPCIONColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FECHACREA" msdata:Caption="jefeArea" msprop:Generator_UserColumnName="FECHACREA" msprop:Generator_ColumnPropNameInRow="FECHACREA" msprop:Generator_ColumnVarNameInTable="columnFECHACREA" msprop:Generator_ColumnPropNameInTable="FECHACREAColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CODCONTRATISTA" msdata:Caption="Motivo" msprop:Generator_UserColumnName="CODCONTRATISTA" msprop:Generator_ColumnPropNameInRow="CODCONTRATISTA" msprop:Generator_ColumnVarNameInTable="columnCODCONTRATISTA" msprop:Generator_ColumnPropNameInTable="CODCONTRATISTAColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CONTRATISTA" msdata:Caption="fecSalida" msprop:Generator_UserColumnName="CONTRATISTA" msprop:Generator_ColumnPropNameInRow="CONTRATISTA" msprop:Generator_ColumnVarNameInTable="columnCONTRATISTA" msprop:Generator_ColumnPropNameInTable="CONTRATISTAColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CODCANTERA" msdata:Caption="fecRetorno" msprop:Generator_UserColumnName="CODCANTERA" msprop:Generator_ColumnPropNameInRow="CODCANTERA" msprop:Generator_ColumnVarNameInTable="columnCODCANTERA" msprop:Generator_ColumnPropNameInTable="CODCANTERAColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CANTERA" msdata:Caption="codCantera" msprop:Generator_UserColumnName="CANTERA" msprop:Generator_ColumnPropNameInRow="CANTERA" msprop:Generator_ColumnVarNameInTable="columnCANTERA" msprop:Generator_ColumnPropNameInTable="CANTERAColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CONCEPTO" msdata:Caption="Cantera" msprop:Generator_UserColumnName="CONCEPTO" msprop:Generator_ColumnPropNameInRow="CONCEPTO" msprop:Generator_ColumnVarNameInTable="columnCONCEPTO" msprop:Generator_ColumnPropNameInTable="CONCEPTOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FLAGVARIACION" msdata:Caption="Region" msprop:Generator_UserColumnName="FLAGVARIACION" msprop:Generator_ColumnPropNameInRow="FLAGVARIACION" msprop:Generator_ColumnVarNameInTable="columnFLAGVARIACION" msprop:Generator_ColumnPropNameInTable="FLAGVARIACIONColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MONTO" msdata:Caption="codConcepto" msprop:Generator_UserColumnName="MONTO" msprop:Generator_ColumnPropNameInRow="MONTO" msprop:Generator_ColumnVarNameInTable="columnMONTO" msprop:Generator_ColumnPropNameInTable="MONTOColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="MONEDA" msdata:Caption="Concepto" msprop:Generator_UserColumnName="MONEDA" msprop:Generator_ColumnPropNameInRow="MONEDA" msprop:Generator_ColumnVarNameInTable="columnMONEDA" msprop:Generator_ColumnPropNameInTable="MONEDAColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="USERAPRUEBA" msdata:Caption="monto" msprop:Generator_UserColumnName="USERAPRUEBA" msprop:Generator_ColumnPropNameInRow="USERAPRUEBA" msprop:Generator_ColumnVarNameInTable="columnUSERAPRUEBA" msprop:Generator_ColumnPropNameInTable="USERAPRUEBAColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="USERCREACION" msdata:Caption="dias" msprop:Generator_UserColumnName="USERCREACION" msprop:Generator_ColumnPropNameInRow="USERCREACION" msprop:Generator_ColumnVarNameInTable="columnUSERCREACION" msprop:Generator_ColumnPropNameInTable="USERCREACIONColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="HORACREA" msdata:Caption="montoTotal" msprop:Generator_UserColumnName="HORACREA" msprop:Generator_ColumnPropNameInRow="HORACREA" msprop:Generator_ColumnVarNameInTable="columnHORACREA" msprop:Generator_ColumnPropNameInTable="HORACREAColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FECHAAPRUEBA" msdata:Caption="estado" msprop:Generator_UserColumnName="FECHAAPRUEBA" msprop:Generator_ColumnPropNameInRow="FECHAAPRUEBA" msprop:Generator_ColumnVarNameInTable="columnFECHAAPRUEBA" msprop:Generator_ColumnPropNameInTable="FECHAAPRUEBAColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TIPODEPOBENEFICIARIO" msprop:Generator_UserColumnName="TIPODEPOBENEFICIARIO" msprop:Generator_ColumnPropNameInRow="TIPODEPOBENEFICIARIO" msprop:Generator_ColumnVarNameInTable="columnTIPODEPOBENEFICIARIO" msprop:Generator_ColumnPropNameInTable="TIPODEPOBENEFICIARIOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BANCO" msprop:Generator_UserColumnName="BANCO" msprop:Generator_ColumnPropNameInRow="BANCO" msprop:Generator_ColumnVarNameInTable="columnBANCO" msprop:Generator_ColumnPropNameInTable="BANCOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BENEFICIARIO" msprop:Generator_UserColumnName="BENEFICIARIO" msprop:Generator_ColumnPropNameInRow="BENEFICIARIO" msprop:Generator_ColumnVarNameInTable="columnBENEFICIARIO" msprop:Generator_ColumnPropNameInTable="BENEFICIARIOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CTABENEFICIARIO" msprop:Generator_UserColumnName="CTABENEFICIARIO" msprop:Generator_ColumnPropNameInRow="CTABENEFICIARIO" msprop:Generator_ColumnVarNameInTable="columnCTABENEFICIARIO" msprop:Generator_ColumnPropNameInTable="CTABENEFICIARIOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RUC" msprop:Generator_UserColumnName="RUC" msprop:Generator_ColumnVarNameInTable="columnRUC" msprop:Generator_ColumnPropNameInRow="RUC" msprop:Generator_ColumnPropNameInTable="RUCColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SALDOANTERIOR" msprop:Generator_UserColumnName="SALDOANTERIOR" msprop:Generator_ColumnPropNameInRow="SALDOANTERIOR" msprop:Generator_ColumnVarNameInTable="columnSALDOANTERIOR" msprop:Generator_ColumnPropNameInTable="SALDOANTERIORColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ANTICIPOS" msprop:Generator_UserColumnName="ANTICIPOS" msprop:Generator_ColumnPropNameInRow="ANTICIPOS" msprop:Generator_ColumnVarNameInTable="columnANTICIPOS" msprop:Generator_ColumnPropNameInTable="ANTICIPOSColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FACTURAS" msprop:Generator_UserColumnName="FACTURAS" msprop:Generator_ColumnPropNameInRow="FACTURAS" msprop:Generator_ColumnVarNameInTable="columnFACTURAS" msprop:Generator_ColumnPropNameInTable="FACTURASColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SALDOACTUAL" msprop:Generator_UserColumnName="SALDOACTUAL" msprop:Generator_ColumnPropNameInRow="SALDOACTUAL" msprop:Generator_ColumnVarNameInTable="columnSALDOACTUAL" msprop:Generator_ColumnPropNameInTable="SALDOACTUALColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
